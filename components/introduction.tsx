@@ -6,6 +6,7 @@ import Link from 'next/link';
 
 const Introduction = () => {
     return ( 
+        <MotionTransition position="bottom" className="">
             <div className = 'z-20 w-full bg-darkBg/60'>
             <div className = 'z-20 grid items-center h-full p-10 py-20 md:py-0 md:grid-cols-2'>
                 <div className="flex items-center justify-center h-screen">
@@ -49,6 +50,7 @@ const Introduction = () => {
                 </div>
             </div>
         </div>
+        </MotionTransition>
      );
 }
 export default Introduction;

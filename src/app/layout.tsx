@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import {Montserrat, Ubuntu } from "next/font/google"; // Importa Montserrat
 import "./globals.css";
 import Headbar from "../../components/headbar";
+import NavBar from "../../components/navbar";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat", // Define la variable CSS
@@ -28,6 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${montserrat.variable} ${ubuntu.variable} antialiased`}>
         <Headbar />
+        <NavBar />
         {children}
       </body>
     </html>

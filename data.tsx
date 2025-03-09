@@ -1,4 +1,4 @@
-import {Instagram, Facebook, Phone} from "lucide-react";
+import {Instagram, Facebook, Phone, HomeIcon} from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -16,4 +16,17 @@ export const socialNetworks = [
         logo: <Phone size={30} strokeWidth={1} />,
         src: "tel:+528186899428",
     }
+];
+
+export const itemsNavbar = [
+    {
+        id: 1,
+        text: "¿Quiénes somos?",
+        link: "/",
+    },
+    {
+        id: 2,
+        text: "Menu",
+        link: "/menu",
+    },
 ];
