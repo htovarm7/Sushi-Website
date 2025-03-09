@@ -38,7 +38,13 @@ const Introduction = () => {
                     Con el paso del tiempo, nos convertimos en la elección favorita de quienes buscan disfrutar de un sabor auténtico, calidad excepcional y precios accesibles.
                     Disfruta de nuestro servicio en comedor, pide para llevar o recibe tu pedido en la comodidad de tu hogar con entregas a domicilio, ya sea a través de nuestro personal o mediante plataformas como Rappi y DiDi.
                     </p>
-
+                    <div>
+                        <div className="fixed bottom-4 right-4 md:bottom-8 md:right-8 z-50">
+                            <Link href="https://wa.me/521XXXXXXXXXX">
+                                <Image src="/WhatsApp.svg" alt="WhatsApp" width={64} height={64} className="w-16 h-16 transition-all duration-300 hover:shadow-[0px_4px_10px_rgba(198,209,9,1)] hover:scale-110 rounded-full" />
+                            </Link>
+                        </div>
+                    </div>
                     <div className='flex items-center justify-center gap-3 md:justify-center md:gap-10'>
                         <Link href ="https://www.didi-food.com/es-MX/food/store/5764607684574445644/Unagi-Sushi---Teppanyaki/?pl=eyJwb2lJZCI6IjI4ODIzMDM3NjE1ODUyNTIwOTciLCJkaXNwbGF5TmFtZSI6IkF2ZW5pZGEgSm9zw6kgw4FuZ2VsIENvbmNoZWxsbyAyMDgzIiwiYWRkcmVzcyI6IlByaXZhZGEgUGlub3MsIFZpY3RvcmlhLCA2NDU4MCBNb250ZXJyZXksIE4uTC4sIE3DqXhpY28iLCJsYXQiOjI1LjY4OTc5NTU1LCJsbmciOi0xMDAuMjk0NzU2ODYsInNyY1RhZyI6Im5ld2VzI2FjX21pbmluZ190b3RhbCIsInBvaVNyY1RhZyI6Im1hbnVhbF9zdWciLCJjb29yZGluYXRlVHlwZSI6Indnczg0IiwiY2l0eUlkIjo1MjE5MDUwMCwiY2l0eSI6Ik1vbnRlcnJleSIsInNlYXJjaElkIjoiMGEwZjE2Mzg2N2NkMDZhZTIyNTY0MmNkMWZjOTgyMDIiLCJhZGRyZXNzQWxsIjoiQXZlbmlkYSBKb3PDqSDDgW5nZWwgQ29uY2hlbGxvIDIwODMsIFByaXZhZGEgUGlub3MsIFZpY3RvcmlhLCA2NDU4MCBNb250ZXJyZXksIE4uTC4sIE3DqXhpY28iLCJhZGRyZXNzQWxsRGlzcGxheSI6IlByaXZhZGEgUGlub3MsIFZpY3RvcmlhLCA2NDU4MCBNb250ZXJyZXksIE4uTC4sIE3DqXhpY28iLCJjb3VudHJ5Q29kZSI6Ik1YIiwiY291bnRyeUlkIjo1MiwiZGlzdFN0ciI6Ijk5K2ttIiwiZGlzdCI6NzA4MDczLCJwb2lUeXBlIjoiUG9pbnQgQWRkcmVzcyIsImNvdW50eUlkIjo1MjE5MDUwNywiY291bnR5R3JvdXBJZCI6NTIxOTA1MDAwMDAxLCJhaWQiOiIifQ%3D%3D#" className = "px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-blue-300">
                             DiDi
