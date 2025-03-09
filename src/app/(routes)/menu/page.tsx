@@ -1,8 +1,17 @@
 "use client"
 
+import MotionTransition from "../../../../components/transition-component";
+import TransitionPage from "../../../../components/transition-page"
+import MenuInteractivo from "../../../../components/menu";
+
 const Menu = () => {
     return ( 
-        <h1>Mi menu</h1>
+        <main>
+            <TransitionPage />
+            <div className="flex min-h-[100vh] h-full">
+                <MenuInteractivo />
+            </div>
+        </main>
      );
 }
  

@@ -3,13 +3,19 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { itemsNavbar } from "../data";
-import MotionTransition  from "./transition-component";
-
+import MotionTransition from "./transition-component";
+import { useEffect, useState } from "react";
 
 const NavBar = () => {
     const router = usePathname();
+    const [key, setKey] = useState(0);
+
+    useEffect(() => {
+        setKey(prevKey => prevKey + 1);
+    }, [router]);
+
     return ( 
-        <MotionTransition position="right" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10">
+        <MotionTransition key={key} position="right" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10">
             <nav>
                 <div className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white background-blur-sa">
                 {itemsNavbar.map((item) => (
