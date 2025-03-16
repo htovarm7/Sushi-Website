@@ -3,8 +3,12 @@ import MotionTransition from "./transition-component"
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation'
 import Link from 'next/link';
+import {useState} from "react";
+
+
 
 const Introduction = () => {
+    // const position = { lat: 25.69048, lng: -100.29515}
     return ( 
         <MotionTransition position="bottom" className="">
             <div className = 'z-20 w-full bg-darkBg/60'>
