@@ -3,7 +3,6 @@ import MotionTransition from "./transition-component"
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation'
 import Link from 'next/link';
-import datetime from "./datetime";
 
 const Introduction = () => {
     return ( 
