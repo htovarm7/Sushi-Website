@@ -14,7 +14,7 @@ const Introduction = () => {
             <div className = 'z-20 w-full bg-darkBg/60'>
             <div className = 'z-20 grid items-center h-full p-10 py-20 md:py-0 md:grid-cols-2'>
                 <div className="flex items-center justify-center h-screen">
-                    <Image src="/Perodico.png" priority width="400" height="400" alt="Periodico Pic" className="rounded-lg transition-transform duration-300 hover:scale-90 shadow-lg"/>
+                    <Image src="/Local.jpg" priority width="700" height="700" alt="Periodico Pic" className="rounded-lg transition-transform duration-300 hover:scale-120 shadow-lg"/>
                 </div>
                 
                 <div className = "flex flex-col justify-center max-m-md">
